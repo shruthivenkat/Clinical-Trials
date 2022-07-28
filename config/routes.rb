@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  # get 'user/index'
+  get 'app', to: 'user#index'
+  get 'app/*path', to: 'user#index'
+
+
   # get 'pages/index'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
