@@ -44,7 +44,7 @@ gem "bootsnap", require: false
 
 # TO ADD REACT TO THE FONT END OF RAILS ---------- ADDED MANUALLY ----------
 gem 'webpacker', '~> 3.0'
-
+gem 'pg', '1.4.2'
 # Use Sass to process CSS
 # gem "sassc-rails"
 
