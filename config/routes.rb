@@ -1,7 +1,14 @@
 Rails.application.routes.draw do
+  get 'trial/index'
+  get 'app', to: 'trial#index'
+  get 'app/*path', to: 'trial#index'
+
+
+
   # get 'user/index'
-  get 'app', to: 'user#index'
-  get 'app/*path', to: 'user#index'
+  # get 'app', to: 'user#index'
+  # get 'app/*path', to: 'user#index'
+
 
 
   # get 'pages/index'
